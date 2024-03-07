@@ -425,6 +425,22 @@ footer a:hover{
 
 }
 
+@media(max-width: 719px){
+  .banner-principal .container{
+    padding-top: 140px;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 503px){
+  .banner-principal .container{
+   padding-top: 150px;
+  }
+  .botoes button{
+   margin-top: 90px;
+  }
+}
+
 @media (max-width: 425px) {
   ul {
     flex-direction: column;
@@ -438,10 +454,6 @@ footer a:hover{
   .cabecalho {
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .banner-principal .container{
-    padding-top: 100px;
   }
 
   .container-photo-fundadores{
@@ -467,4 +479,9 @@ footer a:hover{
     color: #0e7a4b;
   }
 
+}
+@media(max-width: 375px){
+  .botoes button{
+    margin-top: 120px;
+   }
 }
